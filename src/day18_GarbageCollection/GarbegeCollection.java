@@ -34,7 +34,7 @@ public class GarbegeCollection {
         dog1.color = "White";
 
         Dog dog2 = new Dog();
-        dog1.setInfo("Mike","Chow Chow","Medium",'M',5,"Brown");
+        dog1.setInfo("Mike","Chow Chow",'M',5,"Medium","Brown");
 
         //          dog1= null;  or     dog1=dog2  its going garbage collection
 

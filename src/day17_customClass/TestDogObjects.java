@@ -21,10 +21,10 @@ public class TestDogObjects {
         dog2.color = "Orange";
 
         Dog dog3 = new Dog();
-        dog3.setInfo("Mike","Chow Chow","Medium",'M',5,"Brown");
+        dog3.setInfo("Mike","Chow Chow",'M',5,"Medium","Brown");
 
         Dog dog4 = new Dog();
-        dog4.setInfo("Karabas","Bulldog","Small",'F',7,"Gray");
+        dog4.setInfo("Karabas","Bulldog",'F',7,"Small","Gray");
 
 
         System.out.println(dog1);
