@@ -16,12 +16,19 @@ public class IPhone {
         System.out.println("model: "+model);
         System.out.println("color: "+color);
 */
-    public void printPhoneInfo(){
+    public void printPhoneInfo(){ // intance method accept both static and none static or static variable
         System.out.println("brand = " + brand);// this is static
         System.out.println("model = " + model);
         System.out.println("color = " + color);
         System.out.println("price = " + price);
     }
+
+    public IPhone(String model, String color, double price) {
+        this.model = model;
+        this.color = color;
+        this.price = price;
+    }
+
     public static void printOperatingSystem(){
         System.out.println("Operating System : "+OS);
     }
