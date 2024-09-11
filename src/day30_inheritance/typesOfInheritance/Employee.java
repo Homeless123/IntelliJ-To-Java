@@ -2,7 +2,6 @@ package day30_inheritance.typesOfInheritance;
 
 import java.time.LocalDate;
 
-
 public class Employee extends Person {
 
     private String jobTitle;
@@ -40,11 +39,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-
     public void work(){
         System.out.println(getName()+" is working");
     }
-
-
-
 }
