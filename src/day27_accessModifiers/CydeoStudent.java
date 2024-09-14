@@ -24,7 +24,7 @@ public class CydeoStudent {
     }
 
     public String toString() {
-        return "CydeoStudent{" +
+        return "CydeoDewStudent{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +

@@ -1,40 +1,47 @@
 package day20_forEach;
 
-import utillities.ArrayUtility;
+import utilities.ArraysUtility;
 
 import java.util.Arrays;
 
 public class StringMethods {
+
     public static void main(String[] args) {
 
-        String str= "Cydeo School";
+        String str = "Cydeo School";
 
-        char[] ch =str.replace(" ","").toCharArray();
-        System.out.println(Arrays.toString(ch));
-        System.out.println("---------------------------------");
+        char[] ch = str.replace(" ", "").toCharArray();
 
-        String str1= "Todays is a great day to learn java";
+        System.out.println( Arrays.toString(ch) );
 
-        String[] word = str1.split(" ");
-        System.out.println(Arrays.toString(word));
 
-        System.out.println("---------------------------------");
+        System.out.println("-----------------------------------------------------------");
 
-        String sentence ="Today is great day to learn java";
-        String[] arr= ArrayUtility.reverse(sentence.split(" "));    // [ i , love java]
+        String str2 = "Today is a great day to learn java";
+
+        String[] words = str2.split(" ");
+
+        System.out.println(Arrays.toString(words));
+
+        System.out.println("-----------------------------------------------------------");
+
+        String sentence = "Today is a great day";
+
+        String[] arr =  ArraysUtility.reverse( sentence.split(" ") );  //[Java, love I]
+
         System.out.println(Arrays.toString(arr));
 
-        String reverseSentence="";
+        String reversedSentence = ""; //"Java love I"
+
         for (int i = 0; i < arr.length; i++) {
-            reverseSentence+= arr[i]+" ";
-        }
-        System.out.println(reverseSentence);
-            
+            reversedSentence += arr[i] +" ";
         }
 
 
+        System.out.println(reversedSentence);
 
 
 
     }
 
+}
