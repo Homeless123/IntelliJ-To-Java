@@ -79,6 +79,19 @@ public final class CydeoDewStudent extends Person {
     public void drink() {
         System.out.println(getName() + " is drinking "+programmingLanguage);
     }
+
+    @Override
+    public String toString() {
+        return "CydeoDewStudent{" +
+                "name='" + getName() + '\'' +
+                ", gender=" + getGender() +
+                ", age=" + getAge() +
+                ", birthday=" + getBirthday() +
+                ", id='" + getId() + '\'' +
+                ", batchName='" + getBatchName() + '\'' +
+                ", batchNumber=" + getBatchNumber() +
+                '}';
+    }
 }
 /*
 1. Create a sub class of Person (from day32 package) named CydeoDevStudent (final)
