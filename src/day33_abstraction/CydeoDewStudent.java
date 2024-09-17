@@ -46,6 +46,7 @@ public final class CydeoDewStudent extends Person {
         list.addAll(Arrays.asList("Zero to Hero","Alumni Dev"));
         if (! list.contains(batchName)) {
             System.err.println("Invalid batch name: " + batchName);
+            System.out.println("\"Zero to Hero\" or \"Alumni Dev\"");
             System.exit(1);
         }
         //    Más rápido para listas pequeñas y fija

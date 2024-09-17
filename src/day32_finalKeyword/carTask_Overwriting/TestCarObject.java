@@ -25,7 +25,7 @@ public class TestCarObject {
         System.out.println("Tesla:");
         tesla.start();   // Output: Say "Start"
 
-        // Test autoPilot method
+        // Test AutoPilot method
         tesla.autoPilot();  // Output: Engaging autopilot mode.
 
         // Display information

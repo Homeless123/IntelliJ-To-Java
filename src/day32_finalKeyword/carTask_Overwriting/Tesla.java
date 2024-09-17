@@ -63,5 +63,5 @@ Tesla
                		start(): "Say \"Start\""
 
 	                Extra method:
-	                	  autoPilot()
+	                	  AutoPilot()
  */
