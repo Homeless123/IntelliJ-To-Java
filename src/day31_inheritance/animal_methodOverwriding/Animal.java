@@ -65,7 +65,7 @@ public class Animal {
         this.color = color;
     }
 
-    // Animal behavior methods
+    // AnimalTask behavior methods
     public void drink() {
         System.out.println(name + " is drinking");
     }
@@ -78,7 +78,7 @@ public class Animal {
         System.out.println(name + " is sleeping 8 hours");
     }
 
-    // Overriding toString to return a string representation of the Animal object
+    // Overriding toString to return a string representation of the AnimalTask object
     @Override
     public String toString() {
         return getClass().getSimpleName() + "{" +

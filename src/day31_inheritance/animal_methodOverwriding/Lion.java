@@ -15,7 +15,7 @@ public class Lion extends Animal {
 
     // Constructor that includes the specific Lion attribute isAfrican
     public Lion(String name, String breed, char gender, int age, String size, String color, boolean isAfrican) {
-        super(name, breed, gender, age, size, color); // Calls the Animal class constructor
+        super(name, breed, gender, age, size, color); // Calls the AnimalTask class constructor
         setAfrican(isAfrican); // Initializes isAfrican
     }
 
