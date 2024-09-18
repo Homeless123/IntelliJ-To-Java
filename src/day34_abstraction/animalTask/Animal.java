@@ -65,7 +65,7 @@ package day34_abstraction.animalTask;
             this.color = color;
         }
 
-        // Animal behavior methods
+        // AnimalTask behavior methods
         public void drink() {
             System.out.println(name + " is drinking");
         }
@@ -76,7 +76,7 @@ package day34_abstraction.animalTask;
             System.out.println(name + " is sleeping 8 hours");
         }
 
-        // Overriding toString to return a string representation of the Animal object
+        // Overriding toString to return a string representation of the AnimalTask object
         @Override
         public String toString() {
             return getClass().getSimpleName() + "{" +
@@ -91,7 +91,7 @@ package day34_abstraction.animalTask;
     }
 
 /*
-Animal task:
+AnimalTask task:
 	interface Swimmable
 		swim()
 
@@ -105,37 +105,37 @@ Animal task:
 			play();
 
 
-	abstractClass Animal:
+	abstractClass AnimalTask:
 		eat();
 		drink();
 
 
 
-	Dog extend Animal implements Plyable, Swimmable
+	Dog extend AnimalTask implements Plyable, Swimmable
 
-	Cat extend Animal implements Plyable
+	Cat extend AnimalTask implements Plyable
 
-	Cow extend Animal implements Plyable
+	Cow extend AnimalTask implements Plyable
 
-	Horse extend Animal implements Plyable
+	Horse extend AnimalTask implements Plyable
 
-	Parrot extend Animal implements Plyable, Flyable
+	Parrot extend AnimalTask implements Plyable, Flyable
 
-	Eagle extend Animal implements Wild, Flyable
+	Eagle extend AnimalTask implements Wild, Flyable
 
-	Tiger extend Animal implements Wild
+	Tiger extend AnimalTask implements Wild
 
-	Lion extend Animal implements Wild
+	Lion extend AnimalTask implements Wild
 
-	Falcon extend Animal implements Wild, Flyable
+	Falcon extend AnimalTask implements Wild, Flyable
 
-	Shark extend Animal implements Wild, Swimmable
+	Shark extend AnimalTask implements Wild, Swimmable
 
-	Dolphin extend Animal implements Plyable, Swimmable
+	Dolphin extend AnimalTask implements Plyable, Swimmable
 
-	Duck extend Animal implements Plyable, Swimmable, Flyable
+	Duck extend AnimalTask implements Plyable, Swimmable, Flyable
 
-	Java extend Animal implements Plyable, Swimmable, Flyable, Wild
+	Java extend AnimalTask implements Plyable, Swimmable, Flyable, Wild
 
 
  */

@@ -103,7 +103,7 @@ public class Animal {
 }
 
 /*
-0. Animal
+0. AnimalTask
 			attributes:
 					name, breed, gender, size, color, age
 
