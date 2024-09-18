@@ -6,11 +6,6 @@ import day30_inheritance.phoneTask.Phone;
 import day30_inheritance.phoneTask.Samsung;
 
 public class PolymorphismPractice {
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
     public static void main(String[] args) {
 
         Phone mobile = new Samsung("Galaxy S19", "Medium", "Pink", 700);
@@ -70,9 +65,6 @@ public class PolymorphismPractice {
                 }
             }
         }
-
-        // == ,  .equals() ,  instanceof  -  operator
-
 
 
     }

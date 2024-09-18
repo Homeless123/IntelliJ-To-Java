@@ -11,7 +11,12 @@ public class TestEqualMethod {
         System.out.println(circle1.equals(circle2)); // true
         System.out.println(circle1.equals(circle3)); // false
         // System.out.println(circle1.equals("Java"));//Invalid object type.
+        System.out.println("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*");
 
+        IPhone iphone1 = new IPhone("Iphone ", "IPhone12", "Medium", "Blue", 900);
+        IPhone iphone2 = new IPhone("Iphone ", "IPhone12", "Medium", "White", 900);
+        System.out.println(iphone1.equals(iphone2)); // false (different brand, model, color, price)
+                                                    // true bc of everything else is same
 
 
 
