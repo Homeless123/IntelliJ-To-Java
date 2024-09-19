@@ -77,7 +77,7 @@ OOP Polymorphsim: parent type being referenced to the child object
 				 Reference Type decides what can be accessed/called
 				 		(if we need to access the features that are in object type, but not in the reference type, then we need down casting)
 
-		 		 Object type decidesw hich implementation will be executed
+		 		 Object type decides which implementation will be executed
 
 
 
