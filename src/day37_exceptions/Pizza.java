@@ -56,6 +56,29 @@ public class Pizza  {
 
         return prize;
     }
+
+    public String toString() {
+        return "Pizza{" +
+                "size=" + size +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", total price=" + calcCost() +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if ( !(obj instanceof Pizza) ){
+            System.err.println("invalid object : "+obj);
+            System.exit(1);
+        }
+        if (size == ( (Pizza)obj).size  ){
+            if ( numberOfPepperoniTopping == ( (Pizza)obj).numberOfPepperoniTopping){
+                return true;
+            }
+        }
+        return false;
+    }
 }
 /*
 1. Create a class named Pizza
